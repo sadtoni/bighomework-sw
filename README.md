@@ -1,2 +1,3 @@
 # bighomework-sw
-big homework la software engineering, georgescu mihai antonio 1242EA
+georgescu mihai antonio 1242EA
+big homework la software engineering
