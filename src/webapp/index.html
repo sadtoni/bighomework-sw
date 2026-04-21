@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistem Recomandare Retete</title>
+</head>
+<body>
+<h2>Adauga o Reteta Noua</h2>
+<form action="/add-recipe" method="POST"> Titlu: <input type="text" name="title" required><br>
+    Bucatarie 1: <input type="text" name="cuisine1" required><br>
+    Bucatarie 2: <input type="text" name="cuisine2" required><br>
+    Dificultate:
+    <select name="difficulty">
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+    </select><br>
+    <input type="submit" value="Salveaza Reteta">
+</form>
+</body>
+</html>

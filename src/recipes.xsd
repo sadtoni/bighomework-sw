@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- validari -->
+    <xs:simpleType name="DifficultyLevel">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Beginner"/>
+            <xs:enumeration value="Intermediate"/>
+            <xs:enumeration value="Advanced"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="SkillLevel">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Beginner"/>
+            <xs:enumeration value="Intermediate"/>
+            <xs:enumeration value="Advanced"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="RecipeType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <!-- sa aiba 2 occurences of cuisine pe required -->
+            <xs:element name="cuisine" type="xs:string" minOccurs="2" maxOccurs="2"/>
+            <xs:element name="difficulty" type="DifficultyLevel"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="UserType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="surname" type="xs:string"/>
+            <xs:element name="skillLevel" type="SkillLevel"/>
+            <xs:element name="preferredCuisine" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- root element -->
+    <xs:element name="platform">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="user" type="UserType"/>
+                <xs:element name="recipes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!--validare min 20 de retete -->
+                            <xs:element name="recipe" type="RecipeType" minOccurs="20" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

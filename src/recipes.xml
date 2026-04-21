@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<platform xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipes.xsd">
+    <user>
+        <name>Antonio</name>
+        <surname>Georgescu</surname>
+        <skillLevel>Intermediate</skillLevel>
+        <preferredCuisine>Italian</preferredCuisine>
+    </user>
+    <recipes>
+        <recipe>
+            <title>Spaghetti Bolognese</title>
+            <cuisine>Italian</cuisine>
+            <cuisine>European</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+        <recipe>
+            <title>Chicken Tikka Masala</title>
+            <cuisine>Indian</cuisine>
+            <cuisine>British</cuisine>
+            <difficulty>Intermediate</difficulty>
+        </recipe>
+        <recipe>
+            <title>Sushi Rolls</title>
+            <cuisine>Japanese</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Advanced</difficulty>
+        </recipe>
+        <recipe>
+            <title>Tacos al Pastor</title>
+            <cuisine>Mexican</cuisine>
+            <cuisine>Latin American</cuisine>
+            <difficulty>Intermediate</difficulty>
+        </recipe>
+        <recipe>
+            <title>Pad Thai</title>
+            <cuisine>Thai</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+        <recipe>
+            <title>Beef Wellington</title>
+            <cuisine>British</cuisine>
+            <cuisine>European</cuisine>
+            <difficulty>Advanced</difficulty>
+        </recipe>
+        <recipe>
+            <title>Pho</title>
+            <cuisine>Vietnamese</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Intermediate</difficulty>
+        </recipe>
+        <recipe>
+            <title>Margherita Pizza</title>
+            <cuisine>Italian</cuisine>
+            <cuisine>European</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+        <recipe>
+            <title>Croissants</title>
+            <cuisine>French</cuisine>
+            <cuisine>European</cuisine>
+            <difficulty>Advanced</difficulty>
+        </recipe>
+        <recipe>
+            <title>Falafel Wrap</title>
+            <cuisine>Middle Eastern</cuisine>
+            <cuisine>Mediterranean</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+        <recipe>
+            <title>Paella</title>
+            <cuisine>Spanish</cuisine>
+            <cuisine>European</cuisine>
+            <difficulty>Intermediate</difficulty>
+        </recipe>
+        <recipe>
+            <title>Tom Yum Soup</title>
+            <cuisine>Thai</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Intermediate</difficulty>
+        </recipe>
+        <recipe>
+            <title>Kung Pao Chicken</title>
+            <cuisine>Chinese</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+        <recipe>
+            <title>Moussaka</title>
+            <cuisine>Greek</cuisine>
+            <cuisine>Mediterranean</cuisine>
+            <difficulty>Intermediate</difficulty>
+        </recipe>
+        <recipe>
+            <title>Classic Hamburger</title>
+            <cuisine>American</cuisine>
+            <cuisine>Western</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+        <recipe>
+            <title>Ceviche</title>
+            <cuisine>Peruvian</cuisine>
+            <cuisine>Latin American</cuisine>
+            <difficulty>Intermediate</difficulty>
+        </recipe>
+        <recipe>
+            <title>Ramen</title>
+            <cuisine>Japanese</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Advanced</difficulty>
+        </recipe>
+        <recipe>
+            <title>Butter Chicken</title>
+            <cuisine>Indian</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+        <recipe>
+            <title>Peking Duck</title>
+            <cuisine>Chinese</cuisine>
+            <cuisine>Asian</cuisine>
+            <difficulty>Advanced</difficulty>
+        </recipe>
+        <recipe>
+            <title>Macarons</title>
+            <cuisine>French</cuisine>
+            <cuisine>European</cuisine>
+            <difficulty>Advanced</difficulty>
+        </recipe>
+        <recipe>
+            <title>Paste Carbonara Test</title>
+            <cuisine>Italian</cuisine>
+            <cuisine>European</cuisine>
+            <difficulty>Beginner</difficulty>
+        </recipe>
+    </recipes>
+</platform>
